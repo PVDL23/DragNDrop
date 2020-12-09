@@ -19,6 +19,7 @@ namespace DragNDrop
             pbGraphic.AllowDrop = true;
         }
 
+        // comment
         private void dragItem1_MouseDown(object sender, MouseEventArgs e)
         {
             dragItem1.DoDragDrop(dragItem1, DragDropEffects.Copy);
